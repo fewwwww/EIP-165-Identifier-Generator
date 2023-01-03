@@ -10,4 +10,4 @@ export const getInterfaceID = (abi) => {
     interfaceID = interfaceID.xor(contractInterface.getSighash(functions[i]));
   }
   return interfaceID;
-}
+};

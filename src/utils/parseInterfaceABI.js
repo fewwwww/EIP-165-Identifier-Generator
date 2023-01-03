@@ -3,7 +3,9 @@ export const parseInterfaceABI = (interfaceCode) => {
   for (let i = 0; i < interfaceCodeLines.length; i++) {
     interfaceCodeLines[i] = interfaceCodeLines[i].trim();
   }
-  interfaceCodeLines = interfaceCodeLines.filter(line => line.startsWith('function'));
-  interfaceCodeLines = interfaceCodeLines.map(line => line.replace(';', ''));
+  interfaceCodeLines = interfaceCodeLines.filter((line) =>
+    line.startsWith('function'),
+  );
+  interfaceCodeLines = interfaceCodeLines.map((line) => line.replace(';', ''));
   return interfaceCodeLines;
-}
+};
