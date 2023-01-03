@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/EIP-165-Identifier-Generator/static/css/main.218d37e5.css",
-    "main.js": "/EIP-165-Identifier-Generator/static/js/main.59f48b55.js",
+    "main.js": "/EIP-165-Identifier-Generator/static/js/main.cd0ded65.js",
     "index.html": "/EIP-165-Identifier-Generator/index.html",
     "main.218d37e5.css.map": "/EIP-165-Identifier-Generator/static/css/main.218d37e5.css.map",
-    "main.59f48b55.js.map": "/EIP-165-Identifier-Generator/static/js/main.59f48b55.js.map"
+    "main.cd0ded65.js.map": "/EIP-165-Identifier-Generator/static/js/main.cd0ded65.js.map"
   },
   "entrypoints": [
     "static/css/main.218d37e5.css",
-    "static/js/main.59f48b55.js"
+    "static/js/main.cd0ded65.js"
   ]
 }
