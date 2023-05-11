@@ -1,6 +1,7 @@
 import './App.css';
 import { getInterfaceID } from './utils/getInterfaceID';
 import { parseInterfaceABI } from './utils/parseInterfaceABI';
+import { placeholderString } from './static/placeholderString';
 import { useState } from 'react';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
         for interface: <b>{interfaceID._hex}</b>
       </p>
       <textarea
-        placeholder='Paste Your Interface Here...'
+        // placeholder='line1\nline2\nline3' won't work.
+        placeholder={placeholderString}
         onChange={(event) =>
           setInterfaceID(getInterfaceID(parseInterfaceABI(event.target.value)))
         }
